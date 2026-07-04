@@ -1,6 +1,6 @@
 # 🚀 Takım FinNexus AI - FinancialCoPilot
 
-## 📌 Takım Rolleri ve Elemanları
+## 📌 Takım Rolleri 
 * **Ayşe Gül KURNAZ:** Scrum Master & İletişim Sorumlusu
 * **Sedef AKŞİN:** Product Owner, (Kredibilite XAI Modül Sorumlusu)
 * **Azra Nur TABAK:** Developer (Ekip İçi Kontrol Sorumlusu)
