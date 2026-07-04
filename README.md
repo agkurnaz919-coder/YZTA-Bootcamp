@@ -36,7 +36,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 ## 🏃‍♂️ SPRINT 1 RAPORU (19 Haziran 2026 - 5 Temmuz 2026)
 
 ### 1. Sprint Hedefi ve Yol Haritası
-* **Sprint 1 Hedefi:**Projenin temel teknik altyapısını kurmak, 3 modülü besleyecek ortak veri ön işleme boru hattını oluşturmak ve XGBoost + SHAP + DiCE / Isolation Forest motorlarını yerel arayüzde (Streamlit MVP) şeffaf risk skorlarıyla uçtan uca çalışır hale getirmektir.
+* Sprint 1 Hedefi: Projenin temel teknik altyapısını kurmak, 3 modülü besleyecek ortak veri ön işleme boru hattını oluşturmak ve XGBoost + SHAP + DiCE / Isolation Forest motorlarını yerel arayüzde (Streamlit MVP) şeffaf risk skorlarıyla uçtan uca çalışır hale getirmektir.
 
 ### 2. Backlog Düzeni ve Story Seçim Mantığı
 * Backlog'umuz projenin 6 haftalık planına uygun olarak düzenlenmiştir.
@@ -74,16 +74,13 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 >  <img width="1280" height="726" alt="ahmet" src="https://github.com/user-attachments/assets/145dc344-594b-47da-afcb-d4b56bd7e9b8" />
 
 
-### 6. Sprint Review & Retrospective 
-* **Sprint Review:**
+### 6. Sprint Review
 * Kredibilite XAI Modülü: Sıfırdan kurulan XGBoost modeli 5-Fold Stratified CV'de 0.937 AUC skoru üreterek hedeflenen başarımın çok üstüne çıkmıştır. SHAP entegrasyonu başarıyla tamamlanıp hangi faktörün riski ne kadar etkilediği şeffaflaştırılmış, DiCE motoru ile de KOBİ'ler için "ne yapsan onaylanırdın" odaklı 3 alternatif karşıt durum (counterfactual) senaryosu üretilmiştir. Streamlit arayüzünde temel akış (profil girişi, risk skoru ve XAI açıklamaları) tam çalışır durumdadır.
-
 * ChurnLens Modülü: B2B SaaS müşteri kaybı modeli 0.9635 AUC başarımıyla projenin 0.85 olan başarı eşiğini ezip geçmiştir. En kritik aşama olan mantıksal kısıt mimarisi başarıyla kurgulanmış (örn: giden zaman geri alınamaz mantığıyla Abonelik_Suresi_Ay özelliğinin DiCE üzerinde sabit kilitlenmesi) ve müşteriyi kurtaracak 3 net reçete kartı üretilmiştir. Streamlit UI ve Plotly Gauge grafiği sorunsuz çalışmaktadır.
-
 * FinAnomaly Modülü: Sprint 1 kapsamında CSV tabanlı muhasebe/gider verisi şeması, anomali kuralları ve Isolation Forest modelinin mimarisi kurgulanmıştır. Ortaya somut kod çıktısı çıkmamış olsa da, modelin sadece anomali bulma değil, veri temizleme ve anlamlı özellik (feature engineering) çıkarma adımlarını barındıran teknik altyapı tasarımı tamamlanmıştır.
-
 * Genel Karar: Kredibilite ve Churn modülleri canlıya/demoya hazır haldedir. Sonraki sprintte FinAnomaly modülünün kodlama sürecinin hızlandırılmasına karar verilmiştir.
-* **Sprint Retrospective:**
+  
+### 7. Sprint Retrospective:**
 * İyi Gidenler: Kredibilite ve Churn developerları teknik takılmalarda (encode sonrası dtype uyumsuzlukları, NaN temizliği, pandas DataFrame index kaymaları ve DiCE'ın senaryo üretememe sorunları) çok hızlı reaksiyon gösterip tüm "Problems" sekmelerini sıfırlamışlardır.
 
 * Geliştirilmesi Gerekenler: Modüller arası efor hızı dengesi şaşmıştır. FinAnomaly modülü teorik tasarım aşamasında kalarak kod geliştirme tarafında gecikmiştir.
