@@ -54,8 +54,25 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 ### 5. Ürün Durumu (Ekran Görüntüleri)
 * Sprint 1 sonunda temel Streamlit arayüz taslağı ve veri yükleme ekranı çalışır hale getirilmiştir[cite: 2].
-* *(Ekran görüntüsü için placeholder:)*
-> `![Streamlit UI Screenshot](/screenshots/sprint1_ui.png)`[cite: 1]
+* *Kredibilite XAI için*
+> `<img width="1912" height="1026" alt="arayuz_1 1" src="https://github.com/user-attachments/assets/4e725a0b-09f7-41fc-913f-561f38066189" />
+`[cite: 1]
+> `<img width="1905" height="1027" alt="arayuz_1 2" src="https://github.com/user-attachments/assets/ca878b31-d903-4a12-b64e-97597d58f9d2" />
+`[cite: 1]
+> `<img width="1917" height="1031" alt="arayuz_1 3" src="https://github.com/user-attachments/assets/49160673-a8ff-4264-adda-d46b30e848b7" />
+`[cite: 1]
+>  `<img width="1917" height="1017" alt="arayuz_1 4" src="https://github.com/user-attachments/assets/4f6677a6-2870-4693-b168-9b271aa1089b" />
+`[cite: 1]
+* *ChurnLens için*
+>  `<img width="2529" height="1118" alt="Ekran görüntüsü 2026-07-03 160841 (1)" src="https://github.com/user-attachments/assets/9746b169-1724-4c9f-a97d-71887e47eb05" />
+`[cite: 1]
+>  `<img width="2536" height="1086" alt="Ekran görüntüsü 2026-07-03 160928" src="https://github.com/user-attachments/assets/86726422-078a-436b-be0a-d6cb649c4601" />
+`[cite: 1]
+>  `<img width="2522" height="1008" alt="Ekran görüntüsü 2026-07-03 160944" src="https://github.com/user-attachments/assets/39190a3a-d19c-4a64-9a75-70e5f4230b5d" />
+`[cite: 1]
+* *FinAnomaly için*
+>  `<img width="1280" height="726" alt="ahmet" src="https://github.com/user-attachments/assets/145dc344-594b-47da-afcb-d4b56bd7e9b8" />
+`[cite: 1]
 
 ### 6. Sprint Review & Retrospective Toplantıları
 * **Sprint Review:** Ortak veri altyapısının 3 modülü besleyebildiği doğrulandı[cite: 2]. Sprint 2'de en güçlü kasımız olan Kredibilite XAI ve ChurnLens entegrasyonlarına ağırlık verilecek[cite: 2].
