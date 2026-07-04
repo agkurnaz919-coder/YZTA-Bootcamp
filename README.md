@@ -1,1 +1,2 @@
-# YZTA-Bootcamp
+Takım İsmi
+FinNexus AI
