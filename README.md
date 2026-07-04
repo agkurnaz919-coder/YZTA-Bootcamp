@@ -76,18 +76,21 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 ### 6. Sprint Review
 * Kredibilite XAI Modülü: Sıfırdan kurulan XGBoost modeli 5-Fold Stratified CV'de 0.937 AUC skoru üreterek hedeflenen başarımın çok üstüne çıkmıştır. SHAP entegrasyonu başarıyla tamamlanıp hangi faktörün riski ne kadar etkilediği şeffaflaştırılmış, DiCE motoru ile de KOBİ'ler için "ne yapsan onaylanırdın" odaklı 3 alternatif karşıt durum (counterfactual) senaryosu üretilmiştir. Streamlit arayüzünde temel akış (profil girişi, risk skoru ve XAI açıklamaları) tam çalışır durumdadır.
+  
 * ChurnLens Modülü: B2B SaaS müşteri kaybı modeli 0.9635 AUC başarımıyla projenin 0.85 olan başarı eşiğini ezip geçmiştir. En kritik aşama olan mantıksal kısıt mimarisi başarıyla kurgulanmış (örn: giden zaman geri alınamaz mantığıyla Abonelik_Suresi_Ay özelliğinin DiCE üzerinde sabit kilitlenmesi) ve müşteriyi kurtaracak 3 net reçete kartı üretilmiştir. Streamlit UI ve Plotly Gauge grafiği sorunsuz çalışmaktadır.
+  
 * FinAnomaly Modülü: Sprint 1 kapsamında CSV tabanlı muhasebe/gider verisi şeması, anomali kuralları ve Isolation Forest modelinin mimarisi kurgulanmıştır. Ortaya somut kod çıktısı çıkmamış olsa da, modelin sadece anomali bulma değil, veri temizleme ve anlamlı özellik (feature engineering) çıkarma adımlarını barındıran teknik altyapı tasarımı tamamlanmıştır.
+  
 * Genel Karar: Kredibilite ve Churn modülleri canlıya/demoya hazır haldedir. Sonraki sprintte FinAnomaly modülünün kodlama sürecinin hızlandırılmasına karar verilmiştir.
   
-### 7. Sprint Retrospective:**
+### 7. Sprint Retrospective:
 * İyi Gidenler: Kredibilite ve Churn developerları teknik takılmalarda (encode sonrası dtype uyumsuzlukları, NaN temizliği, pandas DataFrame index kaymaları ve DiCE'ın senaryo üretememe sorunları) çok hızlı reaksiyon gösterip tüm "Problems" sekmelerini sıfırlamışlardır.
 
 * Geliştirilmesi Gerekenler: Modüller arası efor hızı dengesi şaşmıştır. FinAnomaly modülü teorik tasarım aşamasında kalarak kod geliştirme tarafında gecikmiştir.
 
 * Alınan Aksiyonlar:
 
-* Ekip İçi İletişim: Kişisel yoğunluk kaynaklı süreçte aksamalar gerçekleşmiştir. İletişimi ve planı dinamik tutarak süreci kolaylaştırma hedeflenmektedir.
+   * Ekip İçi İletişim: Kişisel yoğunluk kaynaklı süreçte aksamalar gerçekleşmiştir. İletişimi ve planı dinamik tutarak süreci kolaylaştırma hedeflenmektedir.
 
-* Somut Çıktı Odaklılık: Sprint 2'de FinAnomaly modülü için "tasarım" değil, doğrudan şüpheli harcamaları listeleyen ilk çalışan MVP hedeflenecektir.
+   * Somut Çıktı Odaklılık: Sprint 2'de FinAnomaly modülü için "tasarım" değil, doğrudan şüpheli harcamaları listeleyen ilk çalışan MVP hedeflenecektir.
 
