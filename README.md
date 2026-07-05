@@ -29,7 +29,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 * Kurumsal Harcama Denetçileri
 
 ### Product Backlog URL
-* **Backlog Panosu:** [Miro / Trello / GitHub Projects Linki Buraya Eklenecek][cite: 1]
+* **Backlog Panosu:** https://miro.com/app/board/uXjVH-sWIok=/?share_link_id=409487541434
 
 ---
 
@@ -48,9 +48,10 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 * Zaman yönetimi ve ekip üyelerinin yoğunlukları göz önüne alınarak Daily Scrum toplantılarının **Google Meeeting ve Whatsapp üzerinden asenkron** olarak yürütülmesine karar verilmiştir.
 
 ### 4. Sprint Board Güncellemeleri
-* **Sprint 1 Board Durumu:** Planlanan Story ve Task'ler başarıyla In Progress aşamasından Done aşamasına taşınmıştır.
+* **Sprint 1 Board Durumu:** Planlanan Story ve Task'lerin çoğu başarıyla In Progress aşamasından Done aşamasına taşınmıştır.
 * *Sprint board update: Sprint board screenshotları:*
-> `![Sprint 1 Board Screenshot](/screenshots/sprint1_board.png)`
+> <img width="1156" height="807" alt="image" src="https://github.com/user-attachments/assets/0c6a1a2a-b962-4f12-ba18-e51358a646e7" />
+
 
 ### 5. Ürün Durumu (Ekran Görüntüleri)
 * Sprint 1 sonunda temel Streamlit arayüz taslağı ve veri yükleme ekranı çalışır hale getirilmiştir.
