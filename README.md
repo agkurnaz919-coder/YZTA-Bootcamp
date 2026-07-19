@@ -42,7 +42,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 * Backlog'umuz projenin 6 haftalık planına uygun olarak düzenlenmiştir.
 * Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde story seçimleri yapılmıştır.
 * Story başına çıkan tahmin puanı, toplam efor puanının yarısından az tutulmuştur.
-* Story'ler (mavi kartlar), geliştiricilerin paralel çalışabilmesi için net alt task'lere (kırmızı kartlar) bölünmüştür[cite: 1]. Her developer, kendi modülünün veri ön işleme adımını üstlenmiştir.
+* Story'ler (mavi kartlar), geliştiricilerin paralel çalışabilmesi için net alt task'lere (kırmızı kartlar) bölünmüştür. Her developer, kendi modülünün veri ön işleme adımını üstlenmiştir.
 
 ### 3. Daily Scrum Notları
 * Zaman yönetimi ve ekip üyelerinin yoğunlukları göz önüne alınarak Daily Scrum toplantılarının **Google Meeeting ve Whatsapp üzerinden asenkron** olarak yürütülmesine karar verilmiştir.
@@ -94,4 +94,66 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
    * Ekip İçi İletişim: Kişisel yoğunluk kaynaklı süreçte aksamalar gerçekleşmiştir. İletişimi ve planı dinamik tutarak süreci kolaylaştırma hedeflenmektedir.
 
    * Somut Çıktı Odaklılık: Sprint 2'de FinAnomaly modülü için "tasarım" değil, doğrudan şüpheli harcamaları listeleyen ilk çalışan MVP hedeflenecektir.
+
+---
+
+## 🏃‍♂️ SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)
+
+### 1. Sprint Hedefi ve Yol Haritası
+* **Sprint 2 Hedefi:** FinancialCoPilot platformunu jüri önünde 5 dakikalık kesintisiz demoya hazır hale getirmek; Ollama ile yerel LLM açıklama katmanını kurmak, ağ bağımsız çalışan "Demo Sahnesi" modlarını entegre etmek, toplu CSV analizlerini devreye almak ve hibrit risk skorlama altyapısını oluşturmak.
+
+### 2. Bu Sprintte Tamamlanan Ana Modüller ve Yenilikler
+
+#### 🧠 Yerel LLM Katmanı (Ollama Entegrasyonu)
+* Bulut API'lerin yaratacağı veri gizliliği risklerini önlemek adına tamamen yerel çalışan **Ollama (llama3.2 / Mistral)** altyapısı entegre edilmiştir.
+* `llm_explainer.py` modülü sayesinde SHAP ve DiCE algoritmalarının ürettiği teknik çıktılar, KOBİ yöneticilerinin ve Müşteri Başarı (Customer Success) temsilcilerinin anlayacağı 2-3 cümlelik Türkçe aksiyon planlarına dönüştürülmüştür.
+* **UI Fallback Sistemi:** Ollama sunucusunun kapalı olma ihtimaline karşı `try/except` blokları eklenmiş; sistemin çökmesi engellenerek statik fallback mesajları ("Yapay Zeka şu an meşgul") tanımlanmıştır.
+
+#### ⚡ Tek Tıkla Offline Demo Sahnesi Modu
+* Jüri sunumu esnasında yaşanabilecek olası ağ/internet kopması risklerine karşı, tamamen offline çalışan **"Demo Modunu Başlat"** butonu arayüze eklenmiştir.
+* **Kredibilite Demo:** Butona basıldığında 12.000€ kredili, %68-75 yüksek riskli "Tekstilci Ahmet Bey" profili anında yüklenmekte ve DiCE kurtarma reçeteleri üretilmektedir.
+* **ChurnLens Demo:** 8 ay abonelik süreli ve %82 yüksek terk riskli "A Şirketi" profili tek tıkla simüle edilmektedir.
+
+#### 📊 CSV Toplu Analiz & Eşik (Threshold) Optimizasyonu
+* `st.file_uploader` entegrasyonu ile kullanıcıların CSV formatında toplu müşteri/mizan verisi yüklemesi ve katı veri tipi (dtype) doğrulaması yapması sağlanmıştır.
+* Yüklenen verilerin risk skorlaması yapıldıktan sonra sonuçların dışa aktarılabilmesi için **"Sonuçları/Kurtarma Planını İndir"** butonu (CSV export) aktif edilmiştir.
+* Sınıflandırma modellerinde Precision-Recall eğrileri incelenerek F1-max ve Recall maksimizasyonu için eşik değeri (threshold tuning) optimizasyonu tamamlanmış, `train.py` güncellenmiştir.
+
+#### 🔍 FinAnomaly Hibrit Risk Skoru ve Kural Motoru
+* **Autoencoder Modeli:** Derin öğrenme tabanlı ikinci bir anomali modeli (`autoencoder.py`) kurulmuş ve Sprint 1'deki Isolation Forest skoru ile karşılaştırma raporları çıkarılmıştır.
+* **Kural Tabanlı Motor:** `rules_engine.py` geliştirilerek; tekrarlı işlem, hafta sonu/mesai dışı işlem, departman ortalamasının çok üstünde gider ve şüpheli kelime kontrolleri devreye alınmıştır.
+* **Hibrit Skorlama:** ML anomali skoru ile kural ihlali skoru birleştirilerek tek bir risk skoru üretilmiş; arayüze denetçiler için kural rozetleri ve **"Neden Şüpheli?"** açıklama kartları eklenmiştir.
+
+### 3. Sprint Board Güncellemeleri ve Daily Scrum
+* **Sprint Board:** Hafta 3-4 planlamasında belirlenen tüm Story ve bunlara bağlı Task'ler başarıyla `Done` aşamasına getirilmiştir.
+* **Daily Scrum Notları:** Ekip içi senkronizasyon WhatsApp üzerinden sürdürülmüş, entegrasyon testlerinde yaşanan çakışmalar pair programming ile çözülmüştür. Toplantı dökümleri `/sprint-notes/Sprint2_DailyScrum.pdf` dosyasına eklenmiştir.
+
+#### Sprint 2 Pano Görseli
+> <img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/04d81a97-ebd6-4d65-ba27-49b933999a4d" />
+> <img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/f06a07e4-cf64-4819-b079-b355b8b05309" />
+
+### 4. Ürün Durumu (Geliştirilen Arayüz Ekran Görüntüleri)
+
+#### Kredibilite XAI - LLM Açıklaması ve Demo Sahnesi
+> <img width="1913" height="977" alt="sprint2_arayüz" src="https://github.com/user-attachments/assets/4ba3ac89-5600-43fc-be94-41e64ac664a0" />
+
+
+#### ChurnLens - Toplu CSV Analizi ve KPI Dashboard
+> <img width="2518" height="1143" alt="Ekran görüntüsü 2026-07-18 130432" src="https://github.com/user-attachments/assets/bb7d4f0a-4937-44ea-bd91-2b6b64a5012c" />
+> <img width="2029" height="1226" alt="Ekran görüntüsü 2026-07-18 130732" src="https://github.com/user-attachments/assets/28d43a79-3dbb-494d-8139-e201e3c7399b" />
+> <img width="2142" height="1188" alt="Ekran görüntüsü 2026-07-18 130750" src="https://github.com/user-attachments/assets/a04d1a26-b2f9-4676-8d26-c927ac6c2ede" />
+> <img width="2152" height="774" alt="Ekran görüntüsü 2026-07-18 130755" src="https://github.com/user-attachments/assets/918874d5-4a3a-4d30-9a20-8d7eff920634" />
+> <img width="2090" height="1136" alt="Ekran görüntüsü 2026-07-18 130838" src="https://github.com/user-attachments/assets/1e915fff-162b-4def-a0dd-955560f0664a" />
+> <img width="2136" height="1052" alt="Ekran görüntüsü 2026-07-18 130807" src="https://github.com/user-attachments/assets/9b9cfc92-c6a9-4240-9d99-e371d9805db5" />
+
+
+#### FinAnomaly - Hibrit Anomali Rozetleri ve İşlem Detayı
+> <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/93f73141-0659-4cd4-a36e-4dd5bf3fec62" />
+> <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/4111c67f-352e-4c83-8231-247feaf88750" />
+> <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/5dd7c064-30fe-4983-99c9-1b2e8d6e6784" />
+
+
+### 5. Sprint Review & Retrospective Toplantıları
+* **Sprint Review (Değerlendirme):** 3 modülün de offline demo sahneleri kesintisiz çalıştırıldı. Yerel LLM (Ollama) Türkçe açıklama üretim süresinin 10 saniyenin altında olduğu doğrulanarak jüri sunumu için geçerli not aldı.
+* **Sprint Retrospective (Retrospektif):** Modüller arası ortak arayüz birleştirme çalışmalarına ağırlık verilmesi gerektiği görüldü. Son sprint olan Sprint 3'te (Hafta 5-6) arayüzün (UI) tek bir dashboard altında birleştirilmesine ve final sunum videosunun çekimlerine odaklanma kararı alındı. 
 
