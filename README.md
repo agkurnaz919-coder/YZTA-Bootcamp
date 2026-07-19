@@ -126,7 +126,8 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 ### 3. Sprint Board Güncellemeleri ve Daily Scrum
 * **Sprint Board:** Hafta 3-4 planlamasında belirlenen tüm Story ve bunlara bağlı Task'ler başarıyla `Done` aşamasına getirilmiştir.
-* **Daily Scrum Notları:** Ekip içi senkronizasyon WhatsApp üzerinden sürdürülmüş, entegrasyon testlerinde yaşanan çakışmalar pair programming ile çözülmüştür. Toplantı dökümleri `/sprint-notes/Sprint2_DailyScrum.pdf` dosyasına eklenmiştir.
+* **Daily Scrum Notları:** Daily Scrum toplantıları Whatsapp belgeleme ise Drive üzerinden devam etmiştir. WhatsApp'da sıklıkla süreç ve gelişmeler hakkında konular konuşulmuştur. Drive üzerinden ise gerekli ve herkesin görmesi gereken belgeler, görseller vb. düzenli olarak yüklenmiştir. Belgeleme ise Google Docs üzerinde yapılmıştır.
+  * 📄 [**Sprint 2 Daily Scrum Notlarını İncelemek İçin Tıklayın**](https://docs.google.com/document/d/1HWCWmwfLFRj0z3ep6LcF1r_fARuVyZOE2VUrfswzPEI/edit?usp=sharing)
 
 #### Sprint 2 Pano Görseli
 > <img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/04d81a97-ebd6-4d65-ba27-49b933999a4d" />
@@ -153,7 +154,36 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 > <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/5dd7c064-30fe-4983-99c9-1b2e8d6e6784" />
 
 
-### 5. Sprint Review & Retrospective Toplantıları
-* **Sprint Review (Değerlendirme):** 3 modülün de offline demo sahneleri kesintisiz çalıştırıldı. Yerel LLM (Ollama) Türkçe açıklama üretim süresinin 10 saniyenin altında olduğu doğrulanarak jüri sunumu için geçerli not aldı.
-* **Sprint Retrospective (Retrospektif):** Modüller arası ortak arayüz birleştirme çalışmalarına ağırlık verilmesi gerektiği görüldü. Son sprint olan Sprint 3'te (Hafta 5-6) arayüzün (UI) tek bir dashboard altında birleştirilmesine ve final sunum videosunun çekimlerine odaklanma kararı alındı. 
+### 6. Sprint Review
+* ChurnLens (Müşteri Kaybı Önleme):
+   * Toplu Risk Taraması (M5): Sistemi kilitleme riski olan LLM yükü bu aşamadan çıkarılarak anlık XGBoost skorlaması devreye alındı. Yüklenen CSV dosyalarındaki toplu müşteri verileri milisaniyeler içinde taranarak kurumsal tablolara ve KPI kartlarına anında yansıması sağlandı.
+   * Lokal LLM Entegrasyonu: Bulut API'lere bağımlılık olmadan, tamamen yerel çalışan Ollama (Llama 3.2/Mistral) entegrasyonu tamamlandı. DiCE algoritmasından çıkan karmaşık karşıt durumlar, müşteri temsilcilerinin anında aksiyon alabileceği Türkçe ve motive edici strateji planlarına dönüştürüldü.
+   * Veri Bilimci Arayüzü (M6): Model başarısını görünür kılmak için AUC-ROC eğrisi ve interaktif Threshold Tuning slider'ı eklendi. Böylece Recall (yakalama oranı) ile False Positive (yanlış alarm) dengesinin Confusion Matrix üzerinden anlık yönetilmesi sağlandı.
 
+* Kredibilite XAI (Kredi Risk Simülatörü):
+   * İnternetsiz Tam Otonom Çalışma: Ollama entegrasyonu ile internet bağlantısına gerek kalmadan yerel LLM üzerinden Türkçe kredi değerlendirmesi üretebilen yapı kuruldu.
+   * Offline Demo Sahnesi: Jüri sunumu esnasında yaşanabilecek ağ risklerine karşı "Tekstilci Ahmet Bey" profili tek tıkla yüklenebilir hale getirildi.
+   * Model Optimizasyonu: Birden fazla KOBİ profilinin aynı anda işlenebildiği toplu analiz ekranı aktif edildi ve threshold optimizasyonu sayesinde F1 skoru 0.66'dan 0.76'ya yükseltildi.
+
+* FinAnomaly (Usulsüzlük ve Anomali Tespiti):
+   * Bütünsel Akış: Makine öğrenmesi modeli, kural tabanlı denetim kontrolleri, açıklanabilirlik ve UI katmanları tek bir test edilmiş puanlama akışı altında birleştirildi.
+   * Denetçi MVP'si: Kurumsal denetçilerin CSV yükleyerek şüpheli harcamaları ve anomali nedenlerini anında görebildiği uçtan uca çalışan demo tamamlandı.
+
+* Kapsam Değişiklikleri ve Çevik Adaptasyonlar 
+  * CSV Kolon Uyumu Doğrulaması İptali: ChurnLens M5 modülü için planlanan karmaşık kolon uyumu doğrulama algoritmaları yazmaktan vazgeçildi. Bunun yerine, kullanıcı deneyimini çok daha pratik hale getiren indirilebilir "Örnek CSV Şablonu" arayüze eklenerek müşteri onboarding süreci sadeleştirildi.
+  * M4 İnternetsiz Demo Sahnesi İptali: ChurnLens için ayrıca tasarlanan offline demo modülüne, mimarimiz zaten tamamen on-prem (yerel) çalıştığı için ihtiyaç kalmadı ve efor tasarrufu amacıyla kapsamdan çıkarıldı.
+
+### 7. Sprint Retrospective:
+* İyi Gidenler:
+   * Erken Hata Tespiti: Sprint 1 retrospektifinde aldığımız "gözden geçirme süreçlerini sıklaştırma" kararı sayesinde, muhasebe verilerindeki kritik tarih formatlama hatası çok erken aşamada tespit edilip tüm modüllerde düzeltildi.
+   * Otomatik ve Görsel Testler: Teslimat öncesinde devreye aldığımız otomatik senaryo testleri ve görsel kontroller sayesinde, arayüzdeki yüzde formatlama hataları canlıya çıkmadan engellendi.
+
+* Karşılaşılan Zorluklar ve Çözümler:
+   * Teknik Entegrasyon Pürüzleri: Sprint esnasında Ollama port çakışması, DiCE modülünde önbellek (cache) kaynaklı senaryo üretim hatası ve ortamlar arası model dosyasının (.pkl) taşınmasında yaşanan bozulmalar gibi engellerle karşılaşıldı. Ekip içi eşli kodlama (pair programming) ve hızlı debug oturumlarıyla her üç sorun da kalıcı olarak çözüldü.
+   * Sentetik Veri ve Model Kalibrasyonu (FinAnomaly): En büyük zorluğumuz, küçük ve sentetik etiketli verilerle model kalibrasyonu yapmak oldu. Modelin şüpheli işlemleri yakalama oranı çok yüksek olsa da yanlış pozitif (false positive) alarmları tamamen sönümlemek için gerçek denetçi geri bildirimlerine ve daha geniş temsil edici verilere ihtiyaç duyulduğu tespit edildi.
+
+* Sprint 3 (Final Sprint) Aksiyon Kararları:
+   * Arayüz (UI) ve Render İyileştirmeleri: DiCE modülünde kalan son görsel render pürüzlerinin giderilmesi ve 3 modülün ortak temada pürüzsüz çalışması sağlanacak.
+   * FinAnomaly Kalibrasyonu: Yanlış pozitifleri azaltmak adına kural ağırlıkları ve anomali eşik değerleri (threshold) yeniden kalibre edilecek.
+   * Jüri Savunma Paketi: Ürünün geliştirme süreci tamamlandığı için odak tamamen sunuma kaydırılacak; Pitch Deck (sunum dokümanı), 3 dakikalık tanıtım videosu çekimi ve olası teknik sorular için Jüri Soru-Cevap (Q&A) Bankası oluşturulacak.
+  
