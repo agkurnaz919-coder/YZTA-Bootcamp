@@ -58,7 +58,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 ### 5. Ürün Durumu (Ekran Görüntüleri)
 * Sprint 1 sonunda temel Streamlit arayüz taslağı ve veri yükleme ekranı çalışır hale getirilmiştir.
 <details>
-<summary><b>*Kredibilite XAI için:*</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>Kredibilite XAI için:</b> <i>(Görseli açmak için tıklayın)</i></summary>
 
 <br>
 > <img width="1912" height="1026" alt="arayuz_1 1" src="https://github.com/user-attachments/assets/4e725a0b-09f7-41fc-913f-561f38066189" />
@@ -71,7 +71,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>* *ChurnLens için:**</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>ChurnLens için:</b> <i>(Görseli açmak için tıklayın)</i></summary>
 
 <br>
 >  <img width="2529" height="1118" alt="Ekran görüntüsü 2026-07-03 160841 (1)" src="https://github.com/user-attachments/assets/9746b169-1724-4c9f-a97d-71887e47eb05" />
@@ -82,7 +82,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>* *FinAnomaly için:*</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>FinAnomaly için:</b> <i>(Görseli açmak için tıklayın)</i></summary>
 
 <br>
 >  <img width="1280" height="726" alt="ahmet" src="https://github.com/user-attachments/assets/145dc344-594b-47da-afcb-d4b56bd7e9b8" />
@@ -150,24 +150,33 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 ### 4. Ürün Durumu (Geliştirilen Arayüz Ekran Görüntüleri)
 
-#### Kredibilite XAI - LLM Açıklaması ve Demo Sahnesi
+<details>
+<summary><b>Kredibilite XAI - LLM Açıklaması ve Demo Sahnesi</b> <i>(Detayları görmek için tıklayın)</i></summary>
+
+<br>
 > <img width="1913" height="977" alt="sprint2_arayüz" src="https://github.com/user-attachments/assets/4ba3ac89-5600-43fc-be94-41e64ac664a0" />
+</details>
 
+<details>
+<summary><b>ChurnLens - Toplu CSV Analizi ve KPI Dashboard</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
-#### ChurnLens - Toplu CSV Analizi ve KPI Dashboard
+<br>
 > <img width="2518" height="1143" alt="Ekran görüntüsü 2026-07-18 130432" src="https://github.com/user-attachments/assets/bb7d4f0a-4937-44ea-bd91-2b6b64a5012c" />
 > <img width="2029" height="1226" alt="Ekran görüntüsü 2026-07-18 130732" src="https://github.com/user-attachments/assets/28d43a79-3dbb-494d-8139-e201e3c7399b" />
 > <img width="2142" height="1188" alt="Ekran görüntüsü 2026-07-18 130750" src="https://github.com/user-attachments/assets/a04d1a26-b2f9-4676-8d26-c927ac6c2ede" />
 > <img width="2152" height="774" alt="Ekran görüntüsü 2026-07-18 130755" src="https://github.com/user-attachments/assets/918874d5-4a3a-4d30-9a20-8d7eff920634" />
 > <img width="2090" height="1136" alt="Ekran görüntüsü 2026-07-18 130838" src="https://github.com/user-attachments/assets/1e915fff-162b-4def-a0dd-955560f0664a" />
 > <img width="2136" height="1052" alt="Ekran görüntüsü 2026-07-18 130807" src="https://github.com/user-attachments/assets/9b9cfc92-c6a9-4240-9d99-e371d9805db5" />
+</details>
 
+<details>
+<summary><b>FinAnomaly - Hibrit Anomali Rozetleri ve İşlem Detayı</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
-#### FinAnomaly - Hibrit Anomali Rozetleri ve İşlem Detayı
+<br>
 > <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/93f73141-0659-4cd4-a36e-4dd5bf3fec62" />
 > <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/4111c67f-352e-4c83-8231-247feaf88750" />
 > <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/5dd7c064-30fe-4983-99c9-1b2e8d6e6784" />
-
+</details>
 
 ### 6. Sprint Review
 * ChurnLens (Müşteri Kaybı Önleme):
@@ -208,9 +217,9 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 <summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
 <br>
-### 🌍 Canlı Ürün Bağlantısı (Deployment)
+🌍 Canlı Ürün Bağlantısı 
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
-👉 **Canlı Ürünü İnceleyin:** [Risk Intelligence Suite](https://risk-intelligence-suite.streamlit.app)
+👉 **Canlı Ürünü İnceleyin:** (https://risk-intelligence-suite.streamlit.app)
 
 ### 1. Sprint 3 Hedefi ve Ulaşılan Nokta
 Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)", "Model Optimizasyonu"** ve **"Canlı Ortam Dağıtımı (Deployment)"** olmuştur. Tüm geliştirme süreçleri tamamlanmış, modüller arası kopukluklar giderilmiş ve sistem tek bir profesyonel tema altında birleştirilmiştir. 
