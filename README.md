@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="<img width="1024" height="559" alt="WhatsApp Image 2026-08-02 at 18 04 37" src="https://github.com/user-attachments/assets/78b947b2-3f69-49d3-b250-1655fb8e805c" />
+  <img src="<img width="1024" height="559" alt="Fc" src="https://github.com/user-attachments/assets/e74e18e3-7a68-488e-8ff8-4b62180c1478" />
 " alt="Risk Intelligence Suite Logo" width="250"/>
   
   <br>
@@ -8,8 +8,6 @@
 </div>
 
 <br>
-
-
 
 # 🚀 Takım FinNexus AI - FinancialCoPilot-Risk Intelligence Suite
 
