@@ -97,7 +97,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
    * Somut Çıktı Odaklılık: Sprint 2'de FinAnomaly modülü için "tasarım" değil, doğrudan şüpheli harcamaları listeleyen ilk çalışan MVP hedeflenecektir.
 </details>
----
+
 <details>
 <summary><b>🏃 SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
@@ -246,4 +246,4 @@ Bootcamp kapsamı dışında kalmasına rağmen ürünümüzü gelecekte pazara 
 
 * **ERP ve Üretim Planlama Entegrasyonu:** İşletmelerin kullandığı üretim planlama, çizelgeleme ve stok yönetimi yazılımlarına API üzerinden doğrudan bağlanarak manuel dosya yüklemesine gerek kalmadan gerçek zamanlı otonom risk taraması yapılması.
 * **Agentic AI Raporlama Katmanı:** Sadece aksiyon reçetesi sunmakla kalmayıp tüm finansal tabloyu yorumlayarak yönetim kuruluna aylık strateji dökümanları yazabilen otonom ajan (Agent) mimarisinin kurulması.
-<details>
+</details>
