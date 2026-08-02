@@ -5,7 +5,7 @@
   
   [![Canlı Ürünü İncele](https://img.shields.io/badge/Canlı_Ürün-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit)](https://risk-intelligence-suite.streamlit.app)
 </div>
-# 🚀 Takım FinNexus AI - FinancialCoPilot-Risk Intelligence Suite
+🚀 Takım FinNexus AI - FinancialCoPilot-Risk Intelligence Suite
 
 ## 📌 Takım Rolleri 
 * **Ayşe Gül KURNAZ:** Scrum Master & İletişim Sorumlusu
