@@ -186,4 +186,59 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
    * Arayüz (UI) ve Render İyileştirmeleri: DiCE modülünde kalan son görsel render pürüzlerinin giderilmesi ve 3 modülün ortak temada pürüzsüz çalışması sağlanacak.
    * FinAnomaly Kalibrasyonu: Yanlış pozitifleri azaltmak adına kural ağırlıkları ve anomali eşik değerleri (threshold) yeniden kalibre edilecek.
    * Jüri Savunma Paketi: Ürünün geliştirme süreci tamamlandığı için odak tamamen sunuma kaydırılacak; Pitch Deck (sunum dokümanı), 3 dakikalık tanıtım videosu çekimi ve olası teknik sorular için Jüri Soru-Cevap (Q&A) Bankası oluşturulacak.
-  
+
+---
+
+## 🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)
+
+### 🌍 Canlı Ürün Bağlantısı (Deployment)
+Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
+👉 **Canlı Ürünü İnceleyin:** [Risk Intelligence Suite](https://risk-intelligence-suite.streamlit.app)
+
+---
+
+### 1. Sprint 3 Hedefi ve Ulaşılan Nokta
+Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)", "Model Optimizasyonu"** ve **"Canlı Ortam Dağıtımı (Deployment)"** olmuştur. Tüm geliştirme süreçleri tamamlanmış, modüller arası kopukluklar giderilmiş ve sistem tek bir profesyonel tema altında birleştirilmiştir. 
+
+### 2. Bu Sprintte Tamamlanan Son Dokunuşlar 
+
+#### 🎨 UI/UX ve Tema Stabilizasyonu
+* Kredibilite, ChurnLens ve FinAnomaly modülleri, kurumsal kimliğe uygun ortak bir Streamlit teması (Dark/Light mode uyumlu) altında birleştirildi.
+* Sayfalar arası geçişlerde yaşanan "state (durum)" kayıpları ve önbellek (cache) problemleri çözülerek kesintisiz bir navigasyon sağlandı.
+
+#### ⚙️ Model ve Render Optimizasyonları
+* **DiCE Modülü İyileştirmesi:** Önceki sprintte yaşanan görsel render ve önbellek pürüzleri giderildi. Karşıt durum (counterfactual) aksiyonlarının arayüze yansıma hızı artırıldı.
+* **FinAnomaly Kalibrasyonu:** Kural ağırlıkları ve anomali eşik değerleri  yeniden kalibre edilerek sistemdeki yanlış pozitif (false positive) alarmlar minimize edildi.
+
+#### 📦 Jüri Savunma ve Teslimat Paketi
+* Projenin mimarisini ve iş değerini anlatan **GitHub repositive** hazırlandı.
+* Ürünün uçtan uca çalışmasını gösteren **3 Dakikalık Demo Videosu** çekildi ve repoya eklendi.
+
+---
+
+### 3. Sprint Board (Miro) Final Durumu
+Sprint 3 sonu itibarıyla `To Do` ve `In Progress` sütunlarımız tamamen boşaltılmış , planlanan tüm iterasyonlar `Done` sütununa aktarılarak ürün teslimata hazır hale getirilmiştir.
+
+<img width="1151" height="810" alt="Ekran görüntüsü 2026-08-02 172629" src="https://github.com/user-attachments/assets/008fb8b8-c4c9-4aea-be51-d416d3c28300" />
+
+---
+
+### 4. Sprint Review
+
+#### 🎯 Sprint Review 
+Jüri demosu öncesinde ürün uçtan uca test edilmiştir. Sistem; verileri alıp analiz eden statik bir araç olmaktan çıkarak işletmelerin süreçlerini milisaniyeler içinde optimize etmelerini sağlayan otonom bir akışa kavuşmuştur. Yerel LLM (Ollama) ve XGBoost destekli mimarimiz sayesinde güvenlik ve gizlilik standartları en üst seviyede tutulmuştur. İptal edilen karmaşık veri doğrulama sistemleri yerine eklenen "Örnek CSV Şablonu", müşteri onboarding sürecini son derece pratikleştirmiştir.
+
+
+### 5. Sprint Retrospective
+
+#### 📈 Sprint Retrospective (Süreç Değerlendirme)
+* **Ne İyi Gitti?** Otomatize edilmiş senaryo testleri ve sürekli gözden geçirme  pratiği sayesinde arayüz ve formatlama hataları canlıya çıkmadan engellendi. Ekip içi asenkron iletişim gücü, zaman yönetimini kusursuz kıldı.
+* **Ne Öğrendik?** Küçük ve sentetik etiketli verilerle model kalibrasyonunun, özellikle anomali tespitinde zorluklar yarattığı görüldü. Kurumsal bir ürün için gerçek denetçi geri bildirimlerinin hayati olduğu tecrübe edildi.
+
+---
+
+### 🚀 Gelecek Vizyonu (Backlog)
+Bootcamp kapsamı dışında kalmasına rağmen ürünümüzü gelecekte pazara sunarken (V2.0) entegre etmeyi planladığımız vizyon modüllerimiz:
+
+* **ERP ve Üretim Planlama Entegrasyonu:** İşletmelerin kullandığı üretim planlama, çizelgeleme ve stok yönetimi yazılımlarına API üzerinden doğrudan bağlanarak manuel dosya yüklemesine gerek kalmadan gerçek zamanlı otonom risk taraması yapılması.
+* **Agentic AI Raporlama Katmanı:** Sadece aksiyon reçetesi sunmakla kalmayıp tüm finansal tabloyu yorumlayarak yönetim kuruluna aylık strateji dökümanları yazabilen otonom ajan (Agent) mimarisinin kurulması.  
