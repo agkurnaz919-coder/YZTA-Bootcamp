@@ -99,7 +99,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>🏃‍♂️ SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b>🏃 SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
 <br>
 
