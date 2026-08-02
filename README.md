@@ -217,9 +217,10 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 <summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b></summary>
 
 <br>
-🌍 Canlı Ürün Bağlantısı 
+### 🌍 Canlı Ürün Bağlantısı (Deployment)
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
-* **👉 Canlı Ürünü İnceleyin:** (https://risk-intelligence-suite.streamlit.app)
+
+👉 **[Canlı Ürünü İncelemek İçin Tıklayın](https://risk-intelligence-suite.streamlit.app)**
 
 ### 1. Sprint 3 Hedefi ve Ulaşılan Nokta
 Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)", "Model Optimizasyonu"** ve **"Canlı Ortam Dağıtımı (Deployment)"** olmuştur. Tüm geliştirme süreçleri tamamlanmış, modüller arası kopukluklar giderilmiş ve sistem tek bir profesyonel tema altında birleştirilmiştir. 
