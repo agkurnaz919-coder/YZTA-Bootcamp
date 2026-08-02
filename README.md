@@ -58,7 +58,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 ### 5. Ürün Durumu (Ekran Görüntüleri)
 * Sprint 1 sonunda temel Streamlit arayüz taslağı ve veri yükleme ekranı çalışır hale getirilmiştir.
 <details>
-<summary><b>* *Kredibilite XAI için:*</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>*Kredibilite XAI için:*</b> <i>(Görseli açmak için tıklayın)</i></summary>
 
 <br>
 > <img width="1912" height="1026" alt="arayuz_1 1" src="https://github.com/user-attachments/assets/4e725a0b-09f7-41fc-913f-561f38066189" />
