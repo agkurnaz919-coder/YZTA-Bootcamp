@@ -219,11 +219,13 @@ Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)"
 * Ürünün uçtan uca çalışmasını gösteren **3 Dakikalık Demo Videosu** çekildi ve repoya eklendi.
 
 ---
-
-### 3. Sprint Board (Miro) Final Durumu
+### 3. Sprint Board Final Durumu ###
 Sprint 3 sonu itibarıyla `To Do` ve `In Progress` sütunlarımız tamamen boşaltılmış , planlanan tüm iterasyonlar `Done` sütununa aktarılarak ürün teslimata hazır hale getirilmiştir.
 
 <img width="1151" height="810" alt="Ekran görüntüsü 2026-08-02 172629" src="https://github.com/user-attachments/assets/008fb8b8-c4c9-4aea-be51-d416d3c28300" />
+
+* **Daily Scrum Notları:** Daily Scrum toplantıları Whatsapp belgeleme ise Drive üzerinden devam etmiştir. WhatsApp'da sıklıkla süreç ve gelişmeler hakkında konular konuşulmuştur. Drive üzerinden ise gerekli ve herkesin görmesi gereken belgeler, görseller vb. düzenli olarak yüklenmiştir. Belgeleme ise Google Docs üzerinde yapılmıştır.
+  * 📄 [**Sprint 3 Daily Scrum Notlarını İncelemek İçin Tıklayın**](https://docs.google.com/document/d/1HtgAcgUrb3An6s54yRfwpS1PfA2lTXN4FmzYuqbMaNQ/edit?usp=sharing)
 
 ---
 
