@@ -57,7 +57,10 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 ### 5. Ürün Durumu (Ekran Görüntüleri)
 * Sprint 1 sonunda temel Streamlit arayüz taslağı ve veri yükleme ekranı çalışır hale getirilmiştir.
-* *Kredibilite XAI için:*
+<details>
+<summary><b>* *Kredibilite XAI için:*</b> <i>(Görseli açmak için tıklayın)</i></summary>
+
+<br>
 > <img width="1912" height="1026" alt="arayuz_1 1" src="https://github.com/user-attachments/assets/4e725a0b-09f7-41fc-913f-561f38066189" />
 
 > <img width="1905" height="1027" alt="arayuz_1 2" src="https://github.com/user-attachments/assets/ca878b31-d903-4a12-b64e-97597d58f9d2" />
@@ -65,17 +68,25 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 > <img width="1917" height="1031" alt="arayuz_1 3" src="https://github.com/user-attachments/assets/49160673-a8ff-4264-adda-d46b30e848b7" />
 
 >  <img width="1917" height="1017" alt="arayuz_1 4" src="https://github.com/user-attachments/assets/4f6677a6-2870-4693-b168-9b271aa1089b" />
+</details>
 
-* *ChurnLens için:*
+<details>
+<summary><b>* *ChurnLens için:**</b> <i>(Görseli açmak için tıklayın)</i></summary>
+
+<br>
 >  <img width="2529" height="1118" alt="Ekran görüntüsü 2026-07-03 160841 (1)" src="https://github.com/user-attachments/assets/9746b169-1724-4c9f-a97d-71887e47eb05" />
 
 >  <img width="2536" height="1086" alt="Ekran görüntüsü 2026-07-03 160928" src="https://github.com/user-attachments/assets/86726422-078a-436b-be0a-d6cb649c4601" />
 
 >  <img width="2522" height="1008" alt="Ekran görüntüsü 2026-07-03 160944" src="https://github.com/user-attachments/assets/39190a3a-d19c-4a64-9a75-70e5f4230b5d" />
+</details>
 
-* *FinAnomaly için:*
+<details>
+<summary><b>* *FinAnomaly için:*</b> <i>(Görseli açmak için tıklayın)</i></summary>
+
+<br>
 >  <img width="1280" height="726" alt="ahmet" src="https://github.com/user-attachments/assets/145dc344-594b-47da-afcb-d4b56bd7e9b8" />
-
+</details>
 
 ### 6. Sprint Review
 * Kredibilite XAI Modülü: Sıfırdan kurulan XGBoost modeli 5-Fold Stratified CV'de 0.937 AUC skoru üreterek hedeflenen başarımın çok üstüne çıkmıştır. SHAP entegrasyonu başarıyla tamamlanıp hangi faktörün riski ne kadar etkilediği şeffaflaştırılmış, DiCE motoru ile de KOBİ'ler için "ne yapsan onaylanırdın" odaklı 3 alternatif karşıt durum (counterfactual) senaryosu üretilmiştir. Streamlit arayüzünde temel akış (profil girişi, risk skoru ve XAI açıklamaları) tam çalışır durumdadır.
