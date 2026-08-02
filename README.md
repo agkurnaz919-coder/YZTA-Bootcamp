@@ -197,7 +197,6 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 <summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
 <br>
-
 ### 🌍 Canlı Ürün Bağlantısı (Deployment)
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
 👉 **Canlı Ürünü İnceleyin:** [Risk Intelligence Suite](https://risk-intelligence-suite.streamlit.app)
