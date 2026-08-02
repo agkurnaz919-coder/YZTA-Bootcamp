@@ -192,7 +192,10 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
    * Jüri Savunma Paketi: Ürünün geliştirme süreci tamamlandığı için odak tamamen sunuma kaydırılacak; Pitch Deck (sunum dokümanı), 3 dakikalık tanıtım videosu çekimi ve olası teknik sorular için Jüri Soru-Cevap (Q&A) Bankası oluşturulacak.
 <details>
 
-## 🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)
+<details>
+<summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
+
+<br>
 
 ### 🌍 Canlı Ürün Bağlantısı (Deployment)
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
@@ -244,4 +247,5 @@ Jüri demosu öncesinde ürün uçtan uca test edilmiştir. Sistem; verileri al�
 Bootcamp kapsamı dışında kalmasına rağmen ürünümüzü gelecekte pazara sunarken (V2.0) entegre etmeyi planladığımız vizyon modüllerimiz:
 
 * **ERP ve Üretim Planlama Entegrasyonu:** İşletmelerin kullandığı üretim planlama, çizelgeleme ve stok yönetimi yazılımlarına API üzerinden doğrudan bağlanarak manuel dosya yüklemesine gerek kalmadan gerçek zamanlı otonom risk taraması yapılması.
-* **Agentic AI Raporlama Katmanı:** Sadece aksiyon reçetesi sunmakla kalmayıp tüm finansal tabloyu yorumlayarak yönetim kuruluna aylık strateji dökümanları yazabilen otonom ajan (Agent) mimarisinin kurulması.  
+* **Agentic AI Raporlama Katmanı:** Sadece aksiyon reçetesi sunmakla kalmayıp tüm finansal tabloyu yorumlayarak yönetim kuruluna aylık strateji dökümanları yazabilen otonom ajan (Agent) mimarisinin kurulması.
+<details>
