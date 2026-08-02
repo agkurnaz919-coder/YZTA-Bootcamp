@@ -219,7 +219,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 <br>
 🌍 Canlı Ürün Bağlantısı 
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
-👉 **Canlı Ürünü İnceleyin:** (https://risk-intelligence-suite.streamlit.app)
+*👉 Canlı Ürünü İnceleyin:* (https://risk-intelligence-suite.streamlit.app)
 
 ### 1. Sprint 3 Hedefi ve Ulaşılan Nokta
 Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)", "Model Optimizasyonu"** ve **"Canlı Ortam Dağıtımı (Deployment)"** olmuştur. Tüm geliştirme süreçleri tamamlanmış, modüller arası kopukluklar giderilmiş ve sistem tek bir profesyonel tema altında birleştirilmiştir. 
