@@ -33,7 +33,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 ---
 <details>
-<summary><b> 🏃‍♂️ SPRINT 1 RAPORU (19 Haziran 2026 - 5 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b> 🏃‍♂️ SPRINT 1 RAPORU (19 Haziran 2026 - 5 Temmuz 2026)</b></summary>
 
 <br>
 
@@ -58,7 +58,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 ### 5. Ürün Durumu (Ekran Görüntüleri)
 * Sprint 1 sonunda temel Streamlit arayüz taslağı ve veri yükleme ekranı çalışır hale getirilmiştir.
 <details>
-<summary><b>Kredibilite XAI için:</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>Kredibilite XAI için:</b></summary>
 
 <br>
 > <img width="1912" height="1026" alt="arayuz_1 1" src="https://github.com/user-attachments/assets/4e725a0b-09f7-41fc-913f-561f38066189" />
@@ -71,7 +71,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>ChurnLens için:</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>ChurnLens için:</b></summary>
 
 <br>
 >  <img width="2529" height="1118" alt="Ekran görüntüsü 2026-07-03 160841 (1)" src="https://github.com/user-attachments/assets/9746b169-1724-4c9f-a97d-71887e47eb05" />
@@ -82,7 +82,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>FinAnomaly için:</b> <i>(Görseli açmak için tıklayın)</i></summary>
+<summary><b>FinAnomaly için:</b></summary>
 
 <br>
 >  <img width="1280" height="726" alt="ahmet" src="https://github.com/user-attachments/assets/145dc344-594b-47da-afcb-d4b56bd7e9b8" />
@@ -110,7 +110,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>🏃 SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b>🏃 SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)</b></summary>
 
 <br>
 
@@ -151,14 +151,14 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 ### 4. Ürün Durumu (Geliştirilen Arayüz Ekran Görüntüleri)
 
 <details>
-<summary><b>Kredibilite XAI - LLM Açıklaması ve Demo Sahnesi</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b>Kredibilite XAI - LLM Açıklaması ve Demo Sahnesi</b></summary>
 
 <br>
 > <img width="1913" height="977" alt="sprint2_arayüz" src="https://github.com/user-attachments/assets/4ba3ac89-5600-43fc-be94-41e64ac664a0" />
 </details>
 
 <details>
-<summary><b>ChurnLens - Toplu CSV Analizi ve KPI Dashboard</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b>ChurnLens - Toplu CSV Analizi ve KPI Dashboard</b></summary>
 
 <br>
 > <img width="2518" height="1143" alt="Ekran görüntüsü 2026-07-18 130432" src="https://github.com/user-attachments/assets/bb7d4f0a-4937-44ea-bd91-2b6b64a5012c" />
@@ -170,7 +170,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 </details>
 
 <details>
-<summary><b>FinAnomaly - Hibrit Anomali Rozetleri ve İşlem Detayı</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b>FinAnomaly - Hibrit Anomali Rozetleri ve İşlem Detayı</b></summary>
 
 <br>
 > <img width="1440" height="1100" alt="image" src="https://github.com/user-attachments/assets/93f73141-0659-4cd4-a36e-4dd5bf3fec62" />
@@ -214,12 +214,12 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
 
 <details>
-<summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
+<summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b></summary>
 
 <br>
 🌍 Canlı Ürün Bağlantısı 
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
-*👉 Canlı Ürünü İnceleyin:* (https://risk-intelligence-suite.streamlit.app)
+### 👉 Canlı Ürünü İnceleyin: (https://risk-intelligence-suite.streamlit.app)
 
 ### 1. Sprint 3 Hedefi ve Ulaşılan Nokta
 Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)", "Model Optimizasyonu"** ve **"Canlı Ortam Dağıtımı (Deployment)"** olmuştur. Tüm geliştirme süreçleri tamamlanmış, modüller arası kopukluklar giderilmiş ve sistem tek bir profesyonel tema altında birleştirilmiştir. 
