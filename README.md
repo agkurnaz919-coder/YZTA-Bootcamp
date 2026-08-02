@@ -97,7 +97,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 
    * Somut Çıktı Odaklılık: Sprint 2'de FinAnomaly modülü için "tasarım" değil, doğrudan şüpheli harcamaları listeleyen ilk çalışan MVP hedeflenecektir.
 </details>
-
+---
 <details>
 <summary><b>🏃 SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
@@ -191,7 +191,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
    * FinAnomaly Kalibrasyonu: Yanlış pozitifleri azaltmak adına kural ağırlıkları ve anomali eşik değerleri (threshold) yeniden kalibre edilecek.
    * Jüri Savunma Paketi: Ürünün geliştirme süreci tamamlandığı için odak tamamen sunuma kaydırılacak; Pitch Deck (sunum dokümanı), 3 dakikalık tanıtım videosu çekimi ve olası teknik sorular için Jüri Soru-Cevap (Q&A) Bankası oluşturulacak.
 <details>
-
+---
 
 <details>
 <summary><b>🏆 SPRINT 3: FİNAL SÜRÜMÜ VE CANLIYA ALMA (20 Temmuz 2026 - 2 Ağustos 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
@@ -200,8 +200,6 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 ### 🌍 Canlı Ürün Bağlantısı (Deployment)
 Uygulamamız teknik bir altyapı olmaktan çıkıp, son kullanıcıya hazır bir B2B Karar Destek Sistemine dönüşmüştür. 
 👉 **Canlı Ürünü İnceleyin:** [Risk Intelligence Suite](https://risk-intelligence-suite.streamlit.app)
-
----
 
 ### 1. Sprint 3 Hedefi ve Ulaşılan Nokta
 Final sprintimizde odak noktamız tamamen **"Kusursuz Kullanıcı Deneyimi (UX)", "Model Optimizasyonu"** ve **"Canlı Ortam Dağıtımı (Deployment)"** olmuştur. Tüm geliştirme süreçleri tamamlanmış, modüller arası kopukluklar giderilmiş ve sistem tek bir profesyonel tema altında birleştirilmiştir. 
