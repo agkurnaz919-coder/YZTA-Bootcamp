@@ -1,13 +1,12 @@
 <div align="center">
-  <img src="<img width="1024" height="559" alt="Fc" src="https://github.com/user-attachments/assets/e74e18e3-7a68-488e-8ff8-4b62180c1478" />
+  <!-- Sadece https ile başlayan linki tırnak içine yapıştır -->
+  <img src="https://github.com/user-attachments/assets/<img width="1024" height="559" alt="Fc" src="https://github.com/user-attachments/assets/f497adcb-2199-4015-9385-b018ccb484b5" />
 " alt="Risk Intelligence Suite Logo" width="250"/>
   
   <br>
   
-  [![Canlı Ürünü İncele](https://risk-intelligence-suite.streamlit.app)
+  [![Canlı Ürünü İncele](https://img.shields.io/badge/Canlı_Ürün-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit)](https://risk-intelligence-suite.streamlit.app)
 </div>
-
-<br>
 
 # 🚀 Takım FinNexus AI - FinancialCoPilot-Risk Intelligence Suite
 
