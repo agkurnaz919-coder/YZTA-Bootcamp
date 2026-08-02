@@ -1,6 +1,7 @@
 <div align="center">
-  <!-- Sadece https ile başlayan linki tırnak içine yapıştır -->
-  <img src="<img width="1024" height="559" alt="Fc" src="https://github.com/user-attachments/assets/383502f4-1280-4ba7-8ec2-5dc3dee20f86" />" alt="Risk Intelligence Suite Logo" width="250"/>
+  <!-- Sadece https ile başlayıp .jpeg ile biten linki tırnak içine yapıştır -->
+  <img src="<img width="1024" height="559" alt="Fc" src="https://github.com/user-attachments/assets/d820a733-3384-40b1-a18f-f8cdfc26e604" />
+" alt="Risk Intelligence Suite Logo" width="250"/>
   
   <br>
   
