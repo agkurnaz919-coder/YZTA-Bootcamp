@@ -32,8 +32,10 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
 * **Backlog Panosu:** https://miro.com/app/board/uXjVH-sWIok=/?share_link_id=409487541434
 
 ---
+<details>
+<summary><b> 🏃‍♂️ SPRINT 1 RAPORU (19 Haziran 2026 - 5 Temmuz 2026)</b> <i>(Detayları görmek için tıklayın)</i></summary>
 
-## 🏃‍♂️ SPRINT 1 RAPORU (19 Haziran 2026 - 5 Temmuz 2026)
+<br>
 
 ### 1. Sprint Hedefi ve Yol Haritası
 * Sprint 1 Hedefi: Projenin temel teknik altyapısını kurmak, 3 modülü besleyecek ortak veri ön işleme boru hattını oluşturmak ve XGBoost + SHAP + DiCE / Isolation Forest motorlarını yerel arayüzde (Streamlit MVP) şeffaf risk skorlarıyla uçtan uca çalışır hale getirmektir.
@@ -94,7 +96,7 @@ FinancialCoPilot, KOBİ CFO'ları ve mali müşavirlerin aynı masada yönetmek 
    * Ekip İçi İletişim: Kişisel yoğunluk kaynaklı süreçte aksamalar gerçekleşmiştir. İletişimi ve planı dinamik tutarak süreci kolaylaştırma hedeflenmektedir.
 
    * Somut Çıktı Odaklılık: Sprint 2'de FinAnomaly modülü için "tasarım" değil, doğrudan şüpheli harcamaları listeleyen ilk çalışan MVP hedeflenecektir.
-
+</details>
 ---
 
 ## 🏃‍♂️ SPRINT 2 RAPORU (6 Temmuz 2026 - 19 Temmuz 2026)
