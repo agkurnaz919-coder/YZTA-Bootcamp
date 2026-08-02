@@ -231,7 +231,7 @@ Jüri demosu öncesinde ürün uçtan uca test edilmiştir. Sistem; verileri al�
 
 ### 5. Sprint Retrospective
 
-#### 📈 Sprint Retrospective (Süreç Değerlendirme)
+#### 📈 Sprint Retrospective 
 * **Ne İyi Gitti?** Otomatize edilmiş senaryo testleri ve sürekli gözden geçirme  pratiği sayesinde arayüz ve formatlama hataları canlıya çıkmadan engellendi. Ekip içi asenkron iletişim gücü, zaman yönetimini kusursuz kıldı.
 * **Ne Öğrendik?** Küçük ve sentetik etiketli verilerle model kalibrasyonunun, özellikle anomali tespitinde zorluklar yarattığı görüldü. Kurumsal bir ürün için gerçek denetçi geri bildirimlerinin hayati olduğu tecrübe edildi.
 
