@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d820a733-3384-40b1-a18f-f8cdfc26e604" alt="Risk Intelligence Suite Logo" width="250"/>
+  <img src="https://github.com/user-attachments/assets/d820a733-3384-40b1-a18f-f8cdfc26e604" alt="Risk Intelligence Suite Logo" width="700"/>
   
   <br>
   
